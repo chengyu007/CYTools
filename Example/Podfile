@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CYPtools_Example' do
+  pod 'CYPtools', :path => '../'
+
+  target 'CYPtools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
