@@ -1,7 +1,5 @@
 PODS:
-  - CYPtools (0.2):
-    - SVProgressHUD
-  - SVProgressHUD (2.2.2)
+  - CYPtools (0.2)
 
 DEPENDENCIES:
   - CYPtools (from `../`)
@@ -11,8 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CYPtools: 09fa1015f8cf35d9721fac6f65e521084f5eb075
-  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  CYPtools: 3d883783eef40973e026ce22a3d4a00e32b8a88c
 
 PODFILE CHECKSUM: cb2b1a31a650916216af24fc42d2eb79c11ab404
 

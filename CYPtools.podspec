@@ -30,7 +30,7 @@ s.source           = { :git => 'https://github.com/chengyu007/CYTools.git', :tag
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'CYPtools/Classes/**/*'
+s.source_files = '*.{h,m}'
 
 # s.resource_bundles = {
 #   'CYPtools' => ['CYPtools/Assets/*.png']

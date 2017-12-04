@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CYPtools.h"
+#import "CYPtoolsBase.h"
 
 FOUNDATION_EXPORT double CYPtoolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char CYPtoolsVersionString[];

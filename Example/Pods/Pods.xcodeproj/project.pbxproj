@@ -7,104 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07EE188199316C325526707C56E21DA1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */; };
-		1A502E15F53255F1E706CB5932D406DD /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */; };
-		219E66031FD540DC0092F4DB /* CYPtoolsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 219E65FF1FD540DC0092F4DB /* CYPtoolsBase.m */; };
-		219E66041FD540DC0092F4DB /* CYPtoolsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 219E66001FD540DC0092F4DB /* CYPtoolsBase.h */; };
-		219E66051FD540DC0092F4DB /* CYPtools.h in Headers */ = {isa = PBXBuildFile; fileRef = 219E66011FD540DC0092F4DB /* CYPtools.h */; };
-		219E66061FD540DC0092F4DB /* CYPtools.m in Sources */ = {isa = PBXBuildFile; fileRef = 219E66021FD540DC0092F4DB /* CYPtools.m */; };
-		267EC28449C08B5C1C36BB5970CE9E81 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */; };
-		30D3B1A1D36B52ADE979E5FAEEFCE5A2 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */; };
-		46E365114BC53E8487D4C6A9047F8DA6 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4862DEF0EB08F20224376DF85EA32E89 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A9A6E35F788B63DE3EB8EB50AFC3800 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */; };
-		52235139B91D57EC94C967AC2D899338 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
-		558291A400AEC158CE86AD6F3F6C2997 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */; };
-		76EDDA2B7DC3C57455805EA9DFF162E0 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B922ECC43378612377918BA7207AC1C /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		085428594420E0469D424D3B232FC5F4 /* CYPtoolsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 822ACDB4BF8F2B2B43897D65FCC5BC4F /* CYPtoolsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF4D757B5B117F590D8398EC25654C6 /* CYPtools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4ED5C8C5EDAA4CDC672CFD789F5C7B /* CYPtools-dummy.m */; };
+		2700C745E535CE92BF2A4753646E0FF9 /* CYPtools.h in Headers */ = {isa = PBXBuildFile; fileRef = A18A6C5C6B442E157FE38A5942637F11 /* CYPtools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D06834D0D2FC11AE6D5AE9461A730BD /* CYPtools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E12D924557580314C4CAE2C5E2814A8 /* CYPtools.m */; };
+		801310EE9DB84B5A76140A9C083FBC8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8374B12E73E1887BC1FDC2AD7544DD3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8D0758160F16410DA46C9812F5EFC78D /* Pods-CYPtools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A892C6244DA9809716F33ACF3FBB3B0 /* Pods-CYPtools_Tests-dummy.m */; };
-		B7515EDB1C04509FEFC3E6132773F158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		B9F3A89F03651A8D95AFAE7E6BF577E2 /* Pods-CYPtools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 258950CBEBFE44148B5A100BCE80724C /* Pods-CYPtools_Example-dummy.m */; };
-		D245E90D708E14AF3E2C718B9E4491A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		E6508E4E3EBF08EC53BBE4794E2267ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		F2775AC48BABC47D3EC5763ED43B0D4C /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5712938EBBE34C4F0EF4D85E7825011 /* Pods-CYPtools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6AF5866E81D31FC7326D45C09DF2B0 /* Pods-CYPtools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE38C9E4499E90A784457DD10E72411 /* Pods-CYPtools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6AF5866E81D31FC7326D45C09DF2B0 /* Pods-CYPtools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978F89E5AF83D1D66AD97457D7CB1B2D /* Pods-CYPtools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 258950CBEBFE44148B5A100BCE80724C /* Pods-CYPtools_Example-dummy.m */; };
+		A32808D08D78CC52592743A155BE2CF1 /* CYPtoolsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE95D0683A136F39DF1830E8789D94 /* CYPtoolsBase.m */; };
+		B73AA9A6EDC70352663587F79D81F6FF /* CYPtools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 150A87AB19EFA8C551A7752B5A173475 /* CYPtools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7515EDB1C04509FEFC3E6132773F158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FC272B7E4B9A1396944B43CED8393D10 /* Pods-CYPtools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1F604899849DB01234345512855240 /* Pods-CYPtools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE393C666B71DD9255D5990273E132F6 /* PBXContainerItemProxy */ = {
+		5769C1369F5CB9A35C3D7A76AB480A2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBC433CC93577B19CB7847A35079C153;
-			remoteInfo = SVProgressHUD;
+			remoteGlobalIDString = 727E41949040B910B10893DC9FB32BF8;
+			remoteInfo = CYPtools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10CEFCD1726B95D23A49F1B01879428E /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E54A00CD0CC51C260F99CA42B6E2CB /* Pods-CYPtools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYPtools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		150A87AB19EFA8C551A7752B5A173475 /* CYPtools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYPtools-umbrella.h"; sourceTree = "<group>"; };
 		1A1F604899849DB01234345512855240 /* Pods-CYPtools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYPtools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		1A2EF85890B8F4595E27AD0513E418F7 /* Pods-CYPtools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Example-resources.sh"; sourceTree = "<group>"; };
-		219E65FF1FD540DC0092F4DB /* CYPtoolsBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPtoolsBase.m; sourceTree = "<group>"; };
-		219E66001FD540DC0092F4DB /* CYPtoolsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPtoolsBase.h; sourceTree = "<group>"; };
-		219E66011FD540DC0092F4DB /* CYPtools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPtools.h; sourceTree = "<group>"; };
-		219E66021FD540DC0092F4DB /* CYPtools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPtools.m; sourceTree = "<group>"; };
 		258950CBEBFE44148B5A100BCE80724C /* Pods-CYPtools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYPtools_Example-dummy.m"; sourceTree = "<group>"; };
-		2679B3EC886CA1A15A8BDBCB65D66449 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		2EE9D8457C2DAC06D364055D0E6A3F33 /* Pods-CYPtools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		3B4ED5C8C5EDAA4CDC672CFD789F5C7B /* CYPtools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYPtools-dummy.m"; sourceTree = "<group>"; };
 		4DB86FF0B7B83043F29D85A35648DD2B /* Pods-CYPtools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		53A72103BB5A79EA972B87D45B534411 /* Pods-CYPtools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CYPtools_Tests.modulemap"; sourceTree = "<group>"; };
-		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53A72103BB5A79EA972B87D45B534411 /* Pods-CYPtools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CYPtools_Tests.modulemap"; sourceTree = "<group>"; };
 		5A892C6244DA9809716F33ACF3FBB3B0 /* Pods-CYPtools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYPtools_Tests-dummy.m"; sourceTree = "<group>"; };
-		5D2029C7082F0A8867004F17CA6AAFA9 /* Pods-CYPtools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CYPtools_Example.modulemap"; sourceTree = "<group>"; };
-		7922D3D1C751723D7A42FB5B5ACC665E /* Pods_CYPtools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPtools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2029C7082F0A8867004F17CA6AAFA9 /* Pods-CYPtools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CYPtools_Example.modulemap"; sourceTree = "<group>"; };
+		5DAAA1AC0D47CD93737F449EC858A4FE /* Pods_CYPtools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYPtools_Tests.framework; path = "Pods-CYPtools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E12D924557580314C4CAE2C5E2814A8 /* CYPtools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CYPtools.m; sourceTree = "<group>"; };
+		74C288270B74B4449CD9021BE4647E3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2E7D098FBE97A3974E87799B8908F9 /* Pods-CYPtools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C553890C2E892608997897D35C82A4C /* CYPtools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYPtools.framework; path = CYPtools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822ACDB4BF8F2B2B43897D65FCC5BC4F /* CYPtoolsBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYPtoolsBase.h; sourceTree = "<group>"; };
 		85DEA80B97A791E4E11AC46B41B861AF /* Pods-CYPtools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYPtools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8BF5E353509EE59ABB3E8474E6D9AC90 /* Pods-CYPtools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D70B5B1545F3C721B3D37F09B70E902 /* Pods-CYPtools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYPtools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A18A6C5C6B442E157FE38A5942637F11 /* CYPtools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYPtools.h; sourceTree = "<group>"; };
 		B30BA7BA184101E669FFBD1BA84B1A23 /* Pods-CYPtools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Tests-resources.sh"; sourceTree = "<group>"; };
+		B37CED7EFF578CFF310306413B1DDAF7 /* CYPtools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYPtools.xcconfig; sourceTree = "<group>"; };
 		B5491DF990A53CC29E7FDB99C406CC14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C4C7BE87F337458011B5F8E7BC3D8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		C34E8CB55FC8A62FE18610D4C6424BF9 /* Pods_CYPtools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYPtools_Example.framework; path = "Pods-CYPtools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93167C98FD1A1C3E084A4A6136D5EB1 /* CYPtools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYPtools-prefix.pch"; sourceTree = "<group>"; };
+		C9E67D8CC5CB45519F6A87D1A41F4D9F /* CYPtools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CYPtools.modulemap; sourceTree = "<group>"; };
 		D2D67FA24BB164A5E7A2AE9049EBD0C7 /* Pods-CYPtools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D6C04C9F65BB3580D5536C9CA7EE9474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9E0A8598E01887BB17C48B654F0E09B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E1CE95D0683A136F39DF1830E8789D94 /* CYPtoolsBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CYPtoolsBase.m; sourceTree = "<group>"; };
 		E36B39C2CF979105F7A4763B148498F4 /* Pods-CYPtools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		EF6AF5866E81D31FC7326D45C09DF2B0 /* Pods-CYPtools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYPtools_Example-umbrella.h"; sourceTree = "<group>"; };
 		F7478C76099845B0F5DC3B221D5B61CC /* Pods-CYPtools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYPtools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FEC724BEFD44A9A748A6550A4EBCD371 /* Pods_CYPtools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPtools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69C5C9E7E92AB43FE3F0C09A2A521602 /* Frameworks */ = {
+		4FA4282842B9CC35ED4EA0F7B9727A3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D245E90D708E14AF3E2C718B9E4491A2 /* Foundation.framework in Frameworks */,
+				801310EE9DB84B5A76140A9C083FBC8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CD4956793DC1BFE528E99F2B01C09A5 /* Frameworks */ = {
+		706089C9424F42FC51B1698420DB5015 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6508E4E3EBF08EC53BBE4794E2267ED /* Foundation.framework in Frameworks */,
-				52235139B91D57EC94C967AC2D899338 /* QuartzCore.framework in Frameworks */,
+				8374B12E73E1887BC1FDC2AD7544DD3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,37 +98,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28552C6A4C2CBB317DAF2197B361466D /* Development Pods */ = {
+		15A048779F49EFD19BD6EE27BD0A1451 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				703BED22C8104612A7F87A30475B7EB0 /* CYPtools */,
+				C9E67D8CC5CB45519F6A87D1A41F4D9F /* CYPtools.modulemap */,
+				B37CED7EFF578CFF310306413B1DDAF7 /* CYPtools.xcconfig */,
+				3B4ED5C8C5EDAA4CDC672CFD789F5C7B /* CYPtools-dummy.m */,
+				C93167C98FD1A1C3E084A4A6136D5EB1 /* CYPtools-prefix.pch */,
+				150A87AB19EFA8C551A7752B5A173475 /* CYPtools-umbrella.h */,
+				74C288270B74B4449CD9021BE4647E3D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CYPtools";
+			sourceTree = "<group>";
+		};
+		4AA56324CAB40416F777E76BDBDE9F25 /* CYPtools */ = {
+			isa = PBXGroup;
+			children = (
+				A18A6C5C6B442E157FE38A5942637F11 /* CYPtools.h */,
+				6E12D924557580314C4CAE2C5E2814A8 /* CYPtools.m */,
+				822ACDB4BF8F2B2B43897D65FCC5BC4F /* CYPtoolsBase.h */,
+				E1CE95D0683A136F39DF1830E8789D94 /* CYPtoolsBase.m */,
+				15A048779F49EFD19BD6EE27BD0A1451 /* Support Files */,
+			);
+			name = CYPtools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4ACAE71F43643300E6A79C68D00B635B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA56324CAB40416F777E76BDBDE9F25 /* CYPtools */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5831ECC27984A7B2FA00FEE7EF078CAB /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */,
-				AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */,
-				9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */,
-				9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */,
-				2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */,
-				EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */,
-				9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */,
-				E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */,
-				9E09F6F6417032AB83C07907A8D7E815 /* Resources */,
-				AA5C3E6007857393B276FDAE952A73B6 /* Support Files */,
-			);
-			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		5EAD5B583F3383C33500AEEFBD92D470 /* Targets Support Files */ = {
@@ -161,75 +142,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		703BED22C8104612A7F87A30475B7EB0 /* CYPtools */ = {
-			isa = PBXGroup;
-			children = (
-				219E66011FD540DC0092F4DB /* CYPtools.h */,
-				219E66021FD540DC0092F4DB /* CYPtools.m */,
-				219E66001FD540DC0092F4DB /* CYPtoolsBase.h */,
-				219E65FF1FD540DC0092F4DB /* CYPtoolsBase.m */,
-			);
-			name = CYPtools;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		74588D48F629C3D7E6B7E12AB83072D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5831ECC27984A7B2FA00FEE7EF078CAB /* SVProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				28552C6A4C2CBB317DAF2197B361466D /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				74588D48F629C3D7E6B7E12AB83072D6 /* Pods */,
-				F79F300D338877FA2304772CC6A428B3 /* Products */,
+				4ACAE71F43643300E6A79C68D00B635B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D87B9D50ABDB26AA622ED5C6B0ACF1ED /* Products */,
 				5EAD5B583F3383C33500AEEFBD92D470 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
-				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9E09F6F6417032AB83C07907A8D7E815 /* Resources */ = {
+		D87B9D50ABDB26AA622ED5C6B0ACF1ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		AA5C3E6007857393B276FDAE952A73B6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D6C04C9F65BB3580D5536C9CA7EE9474 /* Info.plist */,
-				2679B3EC886CA1A15A8BDBCB65D66449 /* SVProgressHUD.modulemap */,
-				45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */,
-				A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */,
-				D9E0A8598E01887BB17C48B654F0E09B /* SVProgressHUD-prefix.pch */,
-				170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		F79F300D338877FA2304772CC6A428B3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FEC724BEFD44A9A748A6550A4EBCD371 /* Pods_CYPtools_Example.framework */,
-				7922D3D1C751723D7A42FB5B5ACC665E /* Pods_CYPtools_Tests.framework */,
-				10CEFCD1726B95D23A49F1B01879428E /* SVProgressHUD.framework */,
+				7C553890C2E892608997897D35C82A4C /* CYPtools.framework */,
+				C34E8CB55FC8A62FE18610D4C6424BF9 /* Pods_CYPtools_Example.framework */,
+				5DAAA1AC0D47CD93737F449EC858A4FE /* Pods_CYPtools_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,25 +218,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		334074D85D7F836FE58A2AFD2CC9E8FB /* Headers */ = {
+		97B4484F386F50F6AF105319281C7C9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219E66051FD540DC0092F4DB /* CYPtools.h in Headers */,
-				219E66041FD540DC0092F4DB /* CYPtoolsBase.h in Headers */,
-				F5712938EBBE34C4F0EF4D85E7825011 /* Pods-CYPtools_Example-umbrella.h in Headers */,
+				8DE38C9E4499E90A784457DD10E72411 /* Pods-CYPtools_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63FA6CAE74884DB649F7965C19B12D2D /* Headers */ = {
+		A5AF0A06ED24BDABF3C8599D075F4C35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B922ECC43378612377918BA7207AC1C /* SVIndefiniteAnimatedView.h in Headers */,
-				F2775AC48BABC47D3EC5763ED43B0D4C /* SVProgressAnimatedView.h in Headers */,
-				46E365114BC53E8487D4C6A9047F8DA6 /* SVProgressHUD-umbrella.h in Headers */,
-				4862DEF0EB08F20224376DF85EA32E89 /* SVProgressHUD.h in Headers */,
-				76EDDA2B7DC3C57455805EA9DFF162E0 /* SVRadialGradientLayer.h in Headers */,
+				B73AA9A6EDC70352663587F79D81F6FF /* CYPtools-umbrella.h in Headers */,
+				2700C745E535CE92BF2A4753646E0FF9 /* CYPtools.h in Headers */,
+				085428594420E0469D424D3B232FC5F4 /* CYPtoolsBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,40 +247,39 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		945023541065734FD1C82414186A842C /* Pods-CYPtools_Example */ = {
+		44A775300C49D3B6871C55D7EEA955B6 /* Pods-CYPtools_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22ED33503EE3ED7433707FF7958FC73F /* Build configuration list for PBXNativeTarget "Pods-CYPtools_Example" */;
+			buildConfigurationList = F89258D8E8DC5B998EBAC6855D08B76B /* Build configuration list for PBXNativeTarget "Pods-CYPtools_Example" */;
 			buildPhases = (
-				9D4E087B98F8E25CFE2E608F919D3869 /* Sources */,
-				69C5C9E7E92AB43FE3F0C09A2A521602 /* Frameworks */,
-				334074D85D7F836FE58A2AFD2CC9E8FB /* Headers */,
+				0FEF463AAE7A98F516043AFB21C62D18 /* Sources */,
+				706089C9424F42FC51B1698420DB5015 /* Frameworks */,
+				97B4484F386F50F6AF105319281C7C9F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1E0F8CDA39113CBD8A6DB1F14E0A745 /* PBXTargetDependency */,
+				562D4DA563CA9B2FF8A981F79AE88CED /* PBXTargetDependency */,
 			);
 			name = "Pods-CYPtools_Example";
 			productName = "Pods-CYPtools_Example";
-			productReference = FEC724BEFD44A9A748A6550A4EBCD371 /* Pods_CYPtools_Example.framework */;
+			productReference = C34E8CB55FC8A62FE18610D4C6424BF9 /* Pods_CYPtools_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EBC433CC93577B19CB7847A35079C153 /* SVProgressHUD */ = {
+		727E41949040B910B10893DC9FB32BF8 /* CYPtools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9685C2786BAEF0BA98C39B0D046C110A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = CD77EC6596E26B5A4E7A02CABC0F8315 /* Build configuration list for PBXNativeTarget "CYPtools" */;
 			buildPhases = (
-				5D399811387D4DB393949E9DABDDC3DC /* Sources */,
-				8CD4956793DC1BFE528E99F2B01C09A5 /* Frameworks */,
-				63FA6CAE74884DB649F7965C19B12D2D /* Headers */,
-				3AB5B03A112B461621628639983F89FE /* Resources */,
+				C6FCE473DB867920AA7D1CC7611706DA /* Sources */,
+				4FA4282842B9CC35ED4EA0F7B9727A3E /* Frameworks */,
+				A5AF0A06ED24BDABF3C8599D075F4C35 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = 10CEFCD1726B95D23A49F1B01879428E /* SVProgressHUD.framework */;
+			name = CYPtools;
+			productName = CYPtools;
+			productReference = 7C553890C2E892608997897D35C82A4C /* CYPtools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F0FBB96D87BADE126736F0D1F3283B8F /* Pods-CYPtools_Tests */ = {
@@ -356,7 +296,7 @@
 			);
 			name = "Pods-CYPtools_Tests";
 			productName = "Pods-CYPtools_Tests";
-			productReference = 7922D3D1C751723D7A42FB5B5ACC665E /* Pods_CYPtools_Tests.framework */;
+			productReference = 5DAAA1AC0D47CD93737F449EC858A4FE /* Pods_CYPtools_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -376,29 +316,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F79F300D338877FA2304772CC6A428B3 /* Products */;
+			productRefGroup = D87B9D50ABDB26AA622ED5C6B0ACF1ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				945023541065734FD1C82414186A842C /* Pods-CYPtools_Example */,
+				727E41949040B910B10893DC9FB32BF8 /* CYPtools */,
+				44A775300C49D3B6871C55D7EEA955B6 /* Pods-CYPtools_Example */,
 				F0FBB96D87BADE126736F0D1F3283B8F /* Pods-CYPtools_Tests */,
-				EBC433CC93577B19CB7847A35079C153 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		3AB5B03A112B461621628639983F89FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		0FEF463AAE7A98F516043AFB21C62D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A502E15F53255F1E706CB5932D406DD /* SVProgressHUD.bundle in Resources */,
+				978F89E5AF83D1D66AD97457D7CB1B2D /* Pods-CYPtools_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		2E885735491C8ADEB0A83FF185B0064F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,40 +344,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D399811387D4DB393949E9DABDDC3DC /* Sources */ = {
+		C6FCE473DB867920AA7D1CC7611706DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EE188199316C325526707C56E21DA1 /* SVIndefiniteAnimatedView.m in Sources */,
-				267EC28449C08B5C1C36BB5970CE9E81 /* SVProgressAnimatedView.m in Sources */,
-				30D3B1A1D36B52ADE979E5FAEEFCE5A2 /* SVProgressHUD-dummy.m in Sources */,
-				4A9A6E35F788B63DE3EB8EB50AFC3800 /* SVProgressHUD.m in Sources */,
-				558291A400AEC158CE86AD6F3F6C2997 /* SVRadialGradientLayer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D4E087B98F8E25CFE2E608F919D3869 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9F3A89F03651A8D95AFAE7E6BF577E2 /* Pods-CYPtools_Example-dummy.m in Sources */,
-				219E66061FD540DC0092F4DB /* CYPtools.m in Sources */,
-				219E66031FD540DC0092F4DB /* CYPtoolsBase.m in Sources */,
+				1BF4D757B5B117F590D8398EC25654C6 /* CYPtools-dummy.m in Sources */,
+				2D06834D0D2FC11AE6D5AE9461A730BD /* CYPtools.m in Sources */,
+				A32808D08D78CC52592743A155BE2CF1 /* CYPtoolsBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F1E0F8CDA39113CBD8A6DB1F14E0A745 /* PBXTargetDependency */ = {
+		562D4DA563CA9B2FF8A981F79AE88CED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = EBC433CC93577B19CB7847A35079C153 /* SVProgressHUD */;
-			targetProxy = AE393C666B71DD9255D5990273E132F6 /* PBXContainerItemProxy */;
+			name = CYPtools;
+			target = 727E41949040B910B10893DC9FB32BF8 /* CYPtools */;
+			targetProxy = 5769C1369F5CB9A35C3D7A76AB480A2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03985E0FEA36903EB675FD66A9EAAA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37CED7EFF578CFF310306413B1DDAF7 /* CYPtools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYPtools/CYPtools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYPtools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CYPtools/CYPtools.modulemap";
+				PRODUCT_NAME = CYPtools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E22FE2EA6CAD3864312A024B4915C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37CED7EFF578CFF310306413B1DDAF7 /* CYPtools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYPtools/CYPtools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYPtools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CYPtools/CYPtools.modulemap";
+				PRODUCT_NAME = CYPtools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,39 +518,7 @@
 			};
 			name = Release;
 		};
-		3A61228411797A3FFBFAC3FEEEADE23D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2D67FA24BB164A5E7A2AE9049EBD0C7 /* Pods-CYPtools_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CYPtools_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CYPtools_Example/Pods-CYPtools_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CYPtools_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CEC756EC2664C4B3AD339064913B829 /* Release */ = {
+		5091B49A1CA3A49BD7856BAF16CE3F43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B2E7D098FBE97A3974E87799B8908F9 /* Pods-CYPtools_Example.release.xcconfig */;
 			buildSettings = {
@@ -654,9 +606,9 @@
 			};
 			name = Release;
 		};
-		BD8A119A8F4426A19A80C878E01C5192 /* Release */ = {
+		96E5E7D0F608EF447B5462E043170EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = D2D67FA24BB164A5E7A2AE9049EBD0C7 /* Pods-CYPtools_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -667,46 +619,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CYPtools_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_NAME = SVProgressHUD;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CYPtools_Example/Pods-CYPtools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CYPtools_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F28B4FD3B74A269DC9424EB761028E03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -748,15 +673,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22ED33503EE3ED7433707FF7958FC73F /* Build configuration list for PBXNativeTarget "Pods-CYPtools_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A61228411797A3FFBFAC3FEEEADE23D /* Debug */,
-				4CEC756EC2664C4B3AD339064913B829 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -766,20 +682,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9685C2786BAEF0BA98C39B0D046C110A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F28B4FD3B74A269DC9424EB761028E03 /* Debug */,
-				BD8A119A8F4426A19A80C878E01C5192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C8DDB1EEF80B6579EB32DCE2854F9B01 /* Build configuration list for PBXNativeTarget "Pods-CYPtools_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2E67C6011749A114388C0771FC032D6 /* Debug */,
 				33F74DF45212951E1F5AAC2FA08C6AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD77EC6596E26B5A4E7A02CABC0F8315 /* Build configuration list for PBXNativeTarget "CYPtools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03985E0FEA36903EB675FD66A9EAAA4B /* Debug */,
+				0E22FE2EA6CAD3864312A024B4915C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89258D8E8DC5B998EBAC6855D08B76B /* Build configuration list for PBXNativeTarget "Pods-CYPtools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E5E7D0F608EF447B5462E043170EAB /* Debug */,
+				5091B49A1CA3A49BD7856BAF16CE3F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

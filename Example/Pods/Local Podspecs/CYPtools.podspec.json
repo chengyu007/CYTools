@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CYPtools/Classes/**/*",
-  "dependencies": {
-    "SVProgressHUD": [
-
-    ]
-  }
+  "source_files": "*.{h,m}"
 }
