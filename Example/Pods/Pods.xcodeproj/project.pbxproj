@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		219E65B91FD51CFA0092F4DB /* CYPtools.h in Headers */ = {isa = PBXBuildFile; fileRef = 219E65B51FD51CFA0092F4DB /* CYPtools.h */; };
+		219E65BA1FD51CFA0092F4DB /* CYPtoolsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 219E65B61FD51CFA0092F4DB /* CYPtoolsBase.h */; };
+		219E65BB1FD51CFA0092F4DB /* CYPtoolsBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 219E65B71FD51CFA0092F4DB /* CYPtoolsBase.m */; };
+		219E65BC1FD51CFA0092F4DB /* CYPtools.m in Sources */ = {isa = PBXBuildFile; fileRef = 219E65B81FD51CFA0092F4DB /* CYPtools.m */; };
 		8374B12E73E1887BC1FDC2AD7544DD3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8D0758160F16410DA46C9812F5EFC78D /* Pods-CYPtools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A892C6244DA9809716F33ACF3FBB3B0 /* Pods-CYPtools_Tests-dummy.m */; };
 		8DE38C9E4499E90A784457DD10E72411 /* Pods-CYPtools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6AF5866E81D31FC7326D45C09DF2B0 /* Pods-CYPtools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,29 +37,33 @@
 		12E54A00CD0CC51C260F99CA42B6E2CB /* Pods-CYPtools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYPtools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A1F604899849DB01234345512855240 /* Pods-CYPtools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYPtools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1A2EF85890B8F4595E27AD0513E418F7 /* Pods-CYPtools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Example-resources.sh"; sourceTree = "<group>"; };
+		219E65B51FD51CFA0092F4DB /* CYPtools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPtools.h; sourceTree = "<group>"; };
+		219E65B61FD51CFA0092F4DB /* CYPtoolsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPtoolsBase.h; sourceTree = "<group>"; };
+		219E65B71FD51CFA0092F4DB /* CYPtoolsBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPtoolsBase.m; sourceTree = "<group>"; };
+		219E65B81FD51CFA0092F4DB /* CYPtools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPtools.m; sourceTree = "<group>"; };
 		258950CBEBFE44148B5A100BCE80724C /* Pods-CYPtools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYPtools_Example-dummy.m"; sourceTree = "<group>"; };
 		2EE9D8457C2DAC06D364055D0E6A3F33 /* Pods-CYPtools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		41BA44EF319E9FE9A3B86F1EF1A6F47C /* CYPtools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CYPtools.modulemap; sourceTree = "<group>"; };
+		41BA44EF319E9FE9A3B86F1EF1A6F47C /* CYPtools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CYPtools.modulemap; sourceTree = "<group>"; };
 		4DB86FF0B7B83043F29D85A35648DD2B /* Pods-CYPtools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		53A72103BB5A79EA972B87D45B534411 /* Pods-CYPtools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CYPtools_Tests.modulemap"; sourceTree = "<group>"; };
+		53A72103BB5A79EA972B87D45B534411 /* Pods-CYPtools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CYPtools_Tests.modulemap"; sourceTree = "<group>"; };
 		5A892C6244DA9809716F33ACF3FBB3B0 /* Pods-CYPtools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYPtools_Tests-dummy.m"; sourceTree = "<group>"; };
-		5D2029C7082F0A8867004F17CA6AAFA9 /* Pods-CYPtools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CYPtools_Example.modulemap"; sourceTree = "<group>"; };
-		5DAAA1AC0D47CD93737F449EC858A4FE /* Pods_CYPtools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYPtools_Tests.framework; path = "Pods-CYPtools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2029C7082F0A8867004F17CA6AAFA9 /* Pods-CYPtools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CYPtools_Example.modulemap"; sourceTree = "<group>"; };
+		5DAAA1AC0D47CD93737F449EC858A4FE /* Pods_CYPtools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPtools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601125C916B0A365F7F70590FBF67191 /* CYPtools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYPtools-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B2E7D098FBE97A3974E87799B8908F9 /* Pods-CYPtools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7C553890C2E892608997897D35C82A4C /* CYPtools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYPtools.framework; path = CYPtools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C553890C2E892608997897D35C82A4C /* CYPtools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CYPtools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DEA80B97A791E4E11AC46B41B861AF /* Pods-CYPtools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYPtools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		88660952225106D38FEBB2BB35759A38 /* CYPtools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYPtools-umbrella.h"; sourceTree = "<group>"; };
 		8BF5E353509EE59ABB3E8474E6D9AC90 /* Pods-CYPtools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F39AA49A50D9E7020C3C5D7AC742774 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CYPtools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D70B5B1545F3C721B3D37F09B70E902 /* Pods-CYPtools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYPtools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B30BA7BA184101E669FFBD1BA84B1A23 /* Pods-CYPtools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYPtools_Tests-resources.sh"; sourceTree = "<group>"; };
 		B5491DF990A53CC29E7FDB99C406CC14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7F7559C1811EBD8D0B7033B4B693231 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C4C7BE87F337458011B5F8E7BC3D8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C34E8CB55FC8A62FE18610D4C6424BF9 /* Pods_CYPtools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYPtools_Example.framework; path = "Pods-CYPtools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E8CB55FC8A62FE18610D4C6424BF9 /* Pods_CYPtools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPtools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DEE2CCAA1C4608D6914252265F4EFC /* CYPtools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYPtools-prefix.pch"; sourceTree = "<group>"; };
 		D2D67FA24BB164A5E7A2AE9049EBD0C7 /* Pods-CYPtools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E36B39C2CF979105F7A4763B148498F4 /* Pods-CYPtools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYPtools_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +171,10 @@
 		E38E487BECEBD44AA9ED89151C365872 /* CYPtools */ = {
 			isa = PBXGroup;
 			children = (
+				219E65B51FD51CFA0092F4DB /* CYPtools.h */,
+				219E65B81FD51CFA0092F4DB /* CYPtools.m */,
+				219E65B61FD51CFA0092F4DB /* CYPtoolsBase.h */,
+				219E65B71FD51CFA0092F4DB /* CYPtoolsBase.m */,
 				8F39AA49A50D9E7020C3C5D7AC742774 /* ReplaceMe.m */,
 				CF851E3764295642B6174355A1A506F9 /* Support Files */,
 			);
@@ -222,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB58F2AB19E757507957104F87C3D882 /* CYPtools-umbrella.h in Headers */,
+				219E65BA1FD51CFA0092F4DB /* CYPtoolsBase.h in Headers */,
+				219E65B91FD51CFA0092F4DB /* CYPtools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +353,8 @@
 			files = (
 				F9A27DE279EA00962971F849D864E15B /* CYPtools-dummy.m in Sources */,
 				9AE3577E8E8E67AB66091C6CA6305ADD /* ReplaceMe.m in Sources */,
+				219E65BC1FD51CFA0092F4DB /* CYPtools.m in Sources */,
+				219E65BB1FD51CFA0092F4DB /* CYPtoolsBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
