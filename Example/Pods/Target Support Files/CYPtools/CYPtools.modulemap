@@ -1,0 +1,6 @@
+framework module CYPtools {
+  umbrella header "CYPtools-umbrella.h"
+
+  export *
+  module * { export * }
+}

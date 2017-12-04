@@ -1,0 +1,16 @@
+PODS:
+  - CYPtools (0.1.0)
+
+DEPENDENCIES:
+  - CYPtools (from `../`)
+
+EXTERNAL SOURCES:
+  CYPtools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CYPtools: 708f7e79aa503f8ae3826b4fb9194159a9cc6fb9
+
+PODFILE CHECKSUM: 9d7acaf694d968a7c8f364c8e7e3a3d2273cb2d7
+
+COCOAPODS: 1.4.0.beta.1
