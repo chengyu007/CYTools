@@ -6,6 +6,7 @@ target 'CYPtools_Example' do
   target 'CYPtools_Tests' do
     inherit! :search_paths
 
-    
+
   end
+ pod 'SVProgressHUD'
 end

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CYPtools'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CYPtools.'
+s.name             = 'CYPtools'
+s.version          = '0.2'
+s.summary          = 'Project tools'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,27 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+a nice of Project tools
+DESC
 
-  s.homepage         = 'https://github.com/173859684@qq.com/CYPtools'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '173859684@qq.com' => '173859684@qq.com' }
-  s.source           = { :git => 'https://github.com/173859684@qq.com/CYPtools.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/chengyu007/CYTools'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { '19870226a' => '173859684@qq.com' }
+s.source           = { :git => 'https://github.com/chengyu007/CYTools.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CYPtools/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CYPtools' => ['CYPtools/Assets/*.png']
-  # }
+s.source_files = 'CYPtools/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'CYPtools' => ['CYPtools/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+s.frameworks  = "UIKit","Foundation","Security"
+s.dependency 'SVProgressHUD'
 end
+
