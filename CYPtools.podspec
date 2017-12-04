@@ -37,7 +37,7 @@ s.source_files = 'CYPtools/Classes/**/*'
 # }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
-s.frameworks  = "UIKit","Foundation","Security"
-s.dependency 'SVProgressHUD'
+#s.frameworks  = "UIKit","Foundation","Security"
+#s.dependency 'SVProgressHUD'
 end
 
